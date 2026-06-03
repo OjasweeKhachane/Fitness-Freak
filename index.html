@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Freak | AI Fitness Coach</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            <i class="fas fa-dumbbell"></i>
+            Fitness Freak
+        </div>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#coach">AI Coach</a></li>
+                <li><a href="#login">Login</a></li>
+            </ul>
+        </nav>
+
+        <a href="#coach" class="nav-btn">
+            Get Started
+        </a>
+
+    </header>
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <span class="hero-badge">
+                ✨ AI-Powered Fitness Platform
+            </span>
+
+            <h1>
+                Transform Your
+                <span>Body.</span>
+                <br>
+                Transform Your
+                <span>Life.</span>
+            </h1>
+
+            <p>
+                Fitness Freak helps you achieve your dream physique
+                with personalized workout and nutrition plans powered by AI.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#coach" class="btn primary-btn">
+                    Get Started
+                </a>
+
+                <a href="#about" class="btn secondary-btn">
+                    Learn More
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img
+                src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1200"
+                alt="Fitness Athlete">
+
+        </div>
+
+    </section>
+
+    <!-- ================= ABOUT SECTION ================= -->
+
+    <section id="about" class="about section">
+
+        <div class="about-image">
+
+            <img
+                src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1200"
+                alt="Fitness Training">
+
+        </div>
+
+        <div class="about-content">
+
+            <span class="section-tag">
+                ABOUT US
+            </span>
+
+            <h2>
+                About Fitness Freak
+            </h2>
+
+            <p>
+                Fitness Freak is a modern fitness platform designed to help people
+                achieve their health and fitness goals.
+            </p>
+
+            <p>
+                Our AI-powered system generates personalized workout and nutrition
+                plans based on your body metrics, fitness goals,
+                and preferred timeline.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FEATURES ================= -->
+
+    <section id="features" class="features section">
+
+        <div class="section-header">
+
+            <span class="section-tag">
+                FEATURES
+            </span>
+
+            <h2>
+                Powerful Fitness Features
+            </h2>
+
+        </div>
+
+        <div class="feature-grid">
+
+            <div class="feature-card">
+
+                <i class="fas fa-user-check"></i>
+
+                <h3>
+                    Personalized Plans
+                </h3>
+
+                <p>
+                    Custom plans tailored specifically to your goals.
+                </p>
+
+            </div>
+
+            <div class="feature-card">
+
+                <i class="fas fa-chart-line"></i>
+
+                <h3>
+                    Progress Tracking
+                </h3>
+
+                <p>
+                    Track workouts and improvements effortlessly.
+                </p>
+
+            </div>
+
+            <div class="feature-card">
+
+                <i class="fas fa-apple-whole"></i>
+
+                <h3>
+                    Nutrition Guidance
+                </h3>
+
+                <p>
+                    Healthy meal suggestions and calorie management.
+                </p>
+
+            </div>
+
+            <div class="feature-card">
+
+                <i class="fas fa-robot"></i>
+
+                <h3>
+                    AI Coach
+                </h3>
+
+                <p>
+                    Get intelligent fitness recommendations instantly.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= AI COACH ================= -->
+
+    <section id="coach" class="coach section">
+
+        <div class="section-header">
+
+            <span class="section-tag">
+                AI FITNESS COACH
+            </span>
+
+            <h2>
+                Personalized AI Workout Planner
+            </h2>
+
+            <p>
+                Our AI Coach creates a fitness roadmap based on your
+                measurements, goals, and target timeline.
+            </p>
+
+        </div>
+
+        <div class="coach-container">
+
+            <!-- FORM -->
+
+            <div class="coach-form glass-card">
+
+                <h3>
+                    Enter Your Details
+                </h3>
+
+                <input
+                    type="number"
+                    id="weight"
+                    placeholder="Enter Weight (kg)">
+
+                <input
+                    type="number"
+                    id="height"
+                    placeholder="Enter Height (cm)">
+
+                <select id="goal">
+
+                    <option value="Weight Loss">
+                        Weight Loss
+                    </option>
+
+                    <option value="Weight Gain">
+                        Weight Gain
+                    </option>
+
+                    <option value="Muscle Building">
+                        Muscle Building
+                    </option>
+
+                    <option value="Fat Loss">
+                        Fat Loss
+                    </option>
+
+                    <option value="Strength Training">
+                        Strength Training
+                    </option>
+
+                    <option value="General Fitness">
+                        General Fitness
+                    </option>
+
+                </select>
+
+                <input
+                    type="number"
+                    id="target"
+                    placeholder="Target Value">
+
+                <select id="timeline">
+
+                    <option value="Days">
+                        Days
+                    </option>
+
+                    <option value="Weeks">
+                        Weeks
+                    </option>
+
+                    <option value="Months">
+                        Months
+                    </option>
+
+                </select>
+
+                <button
+                    class="generate-btn"
+                    onclick="generatePlan()">
+
+                    Generate AI Plan
+
+                </button>
+
+            </div>
+
+            <!-- RESULT -->
+
+            <div
+                id="result"
+                class="coach-result glass-card">
+
+                <div class="placeholder">
+
+                    <i class="fas fa-brain"></i>
+
+                    <h3>
+                        AI Generated Routine
+                    </h3>
+
+                    <p>
+                        Fill out the form and click Generate Plan.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= LOGIN ================= -->
+
+    <section id="login" class="login section">
+
+        <div class="login-card glass-card">
+
+            <h2>
+                Login
+            </h2>
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Email">
+
+            <input
+                type="password"
+                id="password"
+                placeholder="Password">
+
+            <button
+                onclick="loginUser()">
+
+                Login
+
+            </button>
+
+            <button class="signup-btn">
+                Sign Up
+            </button>
+
+            <p id="loginMessage"></p>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CTA ================= -->
+
+    <section class="cta">
+
+        <h2>
+            Ready To Start Your Fitness Journey?
+        </h2>
+
+        <a href="#coach" class="btn primary-btn">
+            Start Now
+        </a>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-col">
+
+            <h3>
+                Fitness Freak
+            </h3>
+
+            <p>
+                AI Powered Fitness Platform
+            </p>
+
+        </div>
+
+        <div class="footer-col">
+
+            <h4>
+                Quick Links
+            </h4>
+
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#coach">AI Coach</a>
+
+        </div>
+
+        <div class="footer-col">
+
+            <h4>
+                Follow Us
+            </h4>
+
+            <div class="social-icons">
+
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-twitter"></i>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
