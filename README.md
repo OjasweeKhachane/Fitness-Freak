@@ -1,4 +1,6 @@
 # Fitness-Freak
+https://fitness-freaks-webs.netlify.app/
+
 Fitness Freak Website - with AI Coach 
 Fitness Freak is an AI-powered Fitness Platform.
 Its key features are :
